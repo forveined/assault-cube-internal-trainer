@@ -25,8 +25,8 @@ void GUI::Init(HDC hdc) {
 }
 
 void GUI::Render() {
-    static int value = 9999;
-    static char valueBuffer[16] = "9999";
+    static int value = 2147483647;
+    static char valueBuffer[16] = "2147483647";
     static DWORD_PTR localPlayer = 0;
     static bool infiniteHealth = false;
     static bool infiniteAmmo = false;
